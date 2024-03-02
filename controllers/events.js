@@ -126,11 +126,6 @@ const eliminarEvento = async(req = request, res = response) => {
             msg: 'Hable con el administrador'
         })
     }
-
-    return res.status(200).json({
-        ok: true,
-        evento
-    })
 } 
 
 module.exports = {
